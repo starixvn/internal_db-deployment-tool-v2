@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Functions>
+  <Function Name="User">
+    <!--<Setting Key="UserCtrl_GetEmployees" SpName="UserCtrl_GetEmployees" DbName="NexFB" Plain="0" >
+			<Mapping DataField="SysID" ObjectProperty="UserId"/>
+			<Mapping DataField="EmpId" ObjectProperty="EmployeeId"/>
+			<Mapping DataField="DepartmentName" ObjectProperty="Name"/>
+			<Mapping DataField="EmpTeamCode" ObjectProperty="Code"/>
+			<Mapping DataField="EmpTeamName" ObjectProperty="Name"/>
+			<Mapping DataField="RoleName" ObjectProperty="Name"/>
+		</Setting>-->
+
+    <!--<Setting Key="UserCtrl_SetEmployee" SpName="UserCtrl_SetEmployee" DbName="NexFB" Plain="0" >
+		</Setting>-->
+  </Function>
+
+</Functions>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDeployment.Web", "DBDeployment.Web\DBDeployment.Web.csproj", "{EECF4FF1-D944-45CB-87A8-C3EFE7324D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDeployment.Repositories", "DBDeployment.Repositories\DBDeployment.Repositories.csproj", "{391724A3-7EBB-45B0-8530-81AC6C75B630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDeployment.Core", "DBDeployment.Core\DBDeployment.Core.csproj", "{0B6C58C1-1847-4841-B06B-1EC704B09409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDeployment.Services", "DBDeployment.Services\DBDeployment.Services.csproj", "{E16B19BB-00B2-4E0C-8175-CA06E3E5F544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDeployment.Models", "DBDeployment.Models\DBDeployment.Models.csproj", "{9A41E62F-27E4-44C3-A5BA-84E29CCD62AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDeployment.Criteria", "DBDeployment.Criteria\DBDeployment.Criteria.csproj", "{0FC10FA3-A1E4-49D9-B7A5-4CFE2F722E60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeAnalysis", "CodeAnalysis", "{B5CE9BC7-9347-49D6-98D4-35E42BAA65F5}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\CodeAnalysisConfiguration.xml = CodeAnalysis\CodeAnalysisConfiguration.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDeployment.Proxy", "DBDeployment.Proxy\DBDeployment.Proxy.csproj", "{E4188BCE-2C2D-4BAF-82EC-6C7690C1BF3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EECF4FF1-D944-45CB-87A8-C3EFE7324D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECF4FF1-D944-45CB-87A8-C3EFE7324D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECF4FF1-D944-45CB-87A8-C3EFE7324D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECF4FF1-D944-45CB-87A8-C3EFE7324D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391724A3-7EBB-45B0-8530-81AC6C75B630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391724A3-7EBB-45B0-8530-81AC6C75B630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391724A3-7EBB-45B0-8530-81AC6C75B630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391724A3-7EBB-45B0-8530-81AC6C75B630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6C58C1-1847-4841-B06B-1EC704B09409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6C58C1-1847-4841-B06B-1EC704B09409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6C58C1-1847-4841-B06B-1EC704B09409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6C58C1-1847-4841-B06B-1EC704B09409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16B19BB-00B2-4E0C-8175-CA06E3E5F544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16B19BB-00B2-4E0C-8175-CA06E3E5F544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16B19BB-00B2-4E0C-8175-CA06E3E5F544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16B19BB-00B2-4E0C-8175-CA06E3E5F544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A41E62F-27E4-44C3-A5BA-84E29CCD62AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A41E62F-27E4-44C3-A5BA-84E29CCD62AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A41E62F-27E4-44C3-A5BA-84E29CCD62AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A41E62F-27E4-44C3-A5BA-84E29CCD62AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC10FA3-A1E4-49D9-B7A5-4CFE2F722E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC10FA3-A1E4-49D9-B7A5-4CFE2F722E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC10FA3-A1E4-49D9-B7A5-4CFE2F722E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC10FA3-A1E4-49D9-B7A5-4CFE2F722E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4188BCE-2C2D-4BAF-82EC-6C7690C1BF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4188BCE-2C2D-4BAF-82EC-6C7690C1BF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4188BCE-2C2D-4BAF-82EC-6C7690C1BF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4188BCE-2C2D-4BAF-82EC-6C7690C1BF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
