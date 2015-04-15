@@ -52,6 +52,10 @@
       <HintPath>..\packages\dotless.1.4.0.0\lib\dotless.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Fanex.Common, Version=1.0.404.97, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fanex.Common.1.0.404.97\lib\net40\Fanex.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Fanex.Data, Version=0.5.404.63, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Fanex.Data.0.5.404.63\lib\net40\Fanex.Data.dll</HintPath>
       <Private>True</Private>
@@ -166,6 +170,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -213,10 +218,8 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Icon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.3-vsdoc.js" />
@@ -253,7 +256,27 @@
     <None Include="readme.txt" />
     <None Include="Scripts\jquery-2.1.3.min.map" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DBDeployment.Core\DBDeployment.Core.csproj">
+      <Project>{0B6C58C1-1847-4841-B06B-1EC704B09409}</Project>
+      <Name>DBDeployment.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBDeployment.Criteria\DBDeployment.Criteria.csproj">
+      <Project>{0FC10FA3-A1E4-49D9-B7A5-4CFE2F722E60}</Project>
+      <Name>DBDeployment.Criteria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBDeployment.Models\DBDeployment.Models.csproj">
+      <Project>{9A41E62F-27E4-44C3-A5BA-84E29CCD62AF}</Project>
+      <Name>DBDeployment.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBDeployment.Services\DBDeployment.Services.csproj">
+      <Project>{E16B19BB-00B2-4E0C-8175-CA06E3E5F544}</Project>
+      <Name>DBDeployment.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Sites\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

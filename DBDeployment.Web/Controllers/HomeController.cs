@@ -4,9 +4,8 @@
 
     /// <summary>
     /// HomeController class.
-    /// </summary>
-    [Authorize]
-    public class HomeController : Controller
+    /// </summary>    
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
