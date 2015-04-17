@@ -1,6 +1,7 @@
 <StyleCopSettings Version="105">
   <GlobalSettings>
     <CollectionProperty Name="RecognizedWords">
+      <Value>Git</Value>
       <Value>Mvc</Value>
     </CollectionProperty>
   </GlobalSettings>

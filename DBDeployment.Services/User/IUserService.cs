@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------
-// <copyright file="IUserRepository.cs" company="Nexcel Solutions Vietnam">
+// <copyright file="IUserService.cs" company="Nexcel Solutions Vietnam">
 // Copyright (c) Nexcel Solutions Vietnam. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------
@@ -7,16 +7,16 @@
 //   <change who="Larry.Tran" date="2015.4.15">Created</change>
 // </history>
 
-namespace DBDeployment.Repositories.Interfaces
+namespace DBDeployment.Services.User
 {
+    using DBDeployment.Criteria.Users;
     using DBDeployment.Models.Users;
-    using Fanex.Data.Repository;
 
     /// <summary>
-    /// IUserRepository interface.
+    /// IUserService interface.
     /// </summary>
-    public interface IUserRepository
+    public interface IUserService
     {
-        UserModel GetUserByDomainUserName(ICriteria criteria);
+        UserModel GetUserByDomainUserName(GetUserByDomainUserNameCriteria criteria);
     }
 }

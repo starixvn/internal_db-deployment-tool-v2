@@ -14,8 +14,7 @@ namespace DBDeployment.Web.Controllers
     using DBDeployment.Core.Utilities;
     using DBDeployment.Criteria.Users;
     using DBDeployment.Models.Users;
-    using DBDeployment.Services.Implement;
-    using DBDeployment.Services.Interfaces;
+    using DBDeployment.Services.User;
 
     /// <summary>
     /// BaseController class.
@@ -23,7 +22,7 @@ namespace DBDeployment.Web.Controllers
     [Authorize]
     public class BaseController : Controller
     {
-        private readonly IUserService _userService;        
+        private readonly IUserService _userService;
 
         public BaseController()
             : this(null)

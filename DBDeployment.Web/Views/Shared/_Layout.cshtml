@@ -10,17 +10,17 @@
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-static" role="navigation">
-		<div class="container-fluid">			
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<span class="navbar-brand">DB Deployment</span>
 			</div>
 			<div class="collapse navbar-collapse" id="topmenu">
 				<ul class="nav navbar-nav" id="menubar">
-					<li id="release-menu"><a href="~/ReleaseLog/Index"><span class="release-none"></span>
+					<li id="release-menu"><a href="@Url.Action("Index", "DeployLog")"><span class="release-none"></span>
 						Deloyment Log</a> </li>
-					<li id="dashboard-menu"><a href="~/Home/Index"><span class="dashboard-none"></span>Deploy
-						Package</a> </li>
-					<li id="setting-menu"><a href="~/Setting/Configuration"><span class="setting-none"></span>
+					<li id="dashboard-menu"><a href="@Url.Action("CreatePackage", "Package")"><span class="dashboard-none">
+					</span>Deploy Package</a> </li>
+					<li id="setting-menu"><a href="@Url.Action("Index", "Setting")"><span class="setting-none"></span>
 						System Setting</a> </li>
 				</ul>
 				<div class="navbar-right user-name">
@@ -41,12 +41,12 @@
 				</div>
 				<div class="modal-body clearfix" id="modalContent">
 				</div>
-			</div>			
-		</div>		
-	</div>	
+			</div>
+		</div>
+	</div>
 	<div id='loading_status' class="hide">
 		<img alt="" src="~/Content/images/loading.gif" />
-	</div>	
+	</div>
 	@Scripts.Render("~/scripts/vendor")
 	@RenderSection("scripts", required: false)
 </body>

@@ -65,8 +65,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implement\UserRepository.cs" />
-    <Compile Include="Interfaces\IUserRepository.cs" />
+    <Compile Include="User\UserRepository.cs" />
+    <Compile Include="User\IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

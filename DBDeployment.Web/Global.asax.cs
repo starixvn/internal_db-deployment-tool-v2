@@ -13,6 +13,9 @@
     /// </summary>
     public class MvcApplication : System.Web.HttpApplication
     {
+        /// <summary>
+        /// Application the start.
+        /// </summary>
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
@@ -22,6 +25,8 @@
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             DbSettingProviderManager.Current.Start();
+
+            GitConfig.LoginGitAccount();
         }
     }
 }

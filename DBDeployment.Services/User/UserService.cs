@@ -7,13 +7,11 @@
 //   <change who="Larry.Tran" date="2015.4.15">Created</change>
 // </history>
 
-namespace DBDeployment.Services.Implement
+namespace DBDeployment.Services.User
 {
     using DBDeployment.Criteria.Users;
     using DBDeployment.Models.Users;
-    using DBDeployment.Repositories.Implement;
-    using DBDeployment.Repositories.Interfaces;
-    using DBDeployment.Services.Interfaces;
+    using DBDeployment.Repositories.User;
     using Fanex.Common.Helper;
 
     /// <summary>
